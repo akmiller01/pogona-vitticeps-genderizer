@@ -61,6 +61,7 @@ def main():
         per_device_eval_batch_size=16,
         num_train_epochs=50,
         warmup_ratio=0.1,
+        save_total_limit=2,
         load_best_model_at_end=True,
         metric_for_best_model='accuracy',
         push_to_hub=True,
